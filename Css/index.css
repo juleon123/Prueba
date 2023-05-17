@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Titulos;
+    src: url(../Tipografia/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+    font-family: Titulos-Secundarios;
+    src: url(../Tipografia/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+    font-family: Texto;
+    src: url(../Tipografia/GraphikRegular\ \(1\).otf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    /* outline: 2px solid red; */
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Titulos;
+}
+
+p{
+    font-family: Texto;
+}
+
+.navbar{
+    width: 90%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.698);
+    margin: auto;
+}
+.navbar .barra{
+    height: 100%;
+}
+.navbar .barra .logo{
+    height:100%;
+    width: 40%;
+}
+.navbar .barra .logo .logotipo{
+    height: 100%;
+    width: 100%;
+}
+.navbar .barra .logo .logotipo img{
+    height: 100%;
+}
+.navbar .barra .collapse{    
+    width: 35%;
+    justify-content: end;
+    background:rgba(255, 255, 255, 0.698);
+}
+.navbar .collapse ul li a{
+    color: white;
+    margin: 0 20px;
+    border-radius: 10px;
+    transition: 0.7s;
+    font-family: Titulos-Secundarios;
+}

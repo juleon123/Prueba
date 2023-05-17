@@ -1,0 +1,1021 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* outline: 2px solid red; */
+}
+
+
+
+#Slider1{
+    position: relative;
+
+}
+#Slider1 a{
+    font-size: 3em;
+    border-radius: 20px;
+    /* border: 2px solid #9561A5; #F5C600;*/
+    padding: 20px;
+    background-color: #9561A5;
+    color: #F5C600;
+    font-family: Titulos-Secundarios;
+    text-decoration: none;
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+    box-shadow: 30px 40px 50px -20px black;
+}
+#Slider1 a:hover{
+    background-color: #F5C600;
+    color: #9561A5;
+    scale: 1.1;
+}
+
+
+
+
+#Perfil{
+    margin-top: 60px;
+    position: relative;
+    height: 900px;
+    flex-wrap: wrap;
+}
+#Perfil .parrafo{
+    position: absolute;
+    top: 17%;
+    width: 40%;
+    left: 10%;
+    background-color: rgb(173, 109, 233);
+    z-index: 90;
+    position: relative;
+    height: 550px;
+    border-radius: 30px;
+    box-shadow: 30px 40px 50px -20px black;
+}
+#Perfil .parrafo img{
+    height: 150px;
+    margin-left: 28%;
+    margin-top: 40px;
+}
+#Perfil .parrafo p{
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+#Perfil .parrafo a{
+    font-size: 1.4em;
+    padding: 10px;
+    text-decoration: none;
+    color: yellow;
+    left: 42%;
+    position: absolute;
+    bottom: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: Titulos-Secundarios;
+}
+#Perfil .parrafo a:hover{
+    background-color: white;
+    color: purple;
+    scale: 1.1;
+}
+#Perfil .imagen{
+    position: absolute;
+    height: 810px;
+    top: 50px;
+    right: 10%;
+    background-size: cover;
+    border-radius: 30px;
+    box-shadow: 0px 40px 50px -20px black;
+}
+#Perfil .imagen img{
+    height: 100%;
+    border-radius: 30px;
+}
+
+
+.segundo{
+    border-radius: 50px;
+}
+
+
+
+.mascara{
+    width: 60%;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 30px 40px 50px -20px black;
+    border-radius: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mascara .slider{
+    width: 600%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    animation: slider 10s infinite;
+}
+
+.mascara .slider .marco{
+    height: 100%;
+    width: 20%;
+}
+
+.mascara .slider .marco img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+@keyframes slider {
+    0%{left: 0%;}
+    15%{left: 0%;}
+    25%{left: -100%;}
+    40%{left: -100%;}
+    50%{left: -200%;}
+    65%{left: -200%;}
+    75%{left: -300%;}
+    90%{left: -300%;}
+    100%{left: -400%;}
+}
+
+
+
+
+
+
+
+
+/* Donar */
+
+#donar{
+    margin-top: 90px;
+}
+.partes{
+    width: 80%;
+    margin: auto;
+}
+
+#Uno{
+    text-align: center;
+}
+#Uno .titulo{
+    font-size: 4em;
+    color: #F5C600;
+}
+#Uno p{
+    font-size: 1.4em;
+}
+#Dos{
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    text-align: center;
+    border: black solid 2px;
+    box-shadow: 30px 40px 50px -20px black;
+    border-radius: 40px;
+}
+#Dos h1{
+    font-size: 3em;
+    color: #F5C600;
+}
+#Dos p{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+#Dos a{
+    background-color: #9267e4;
+    font-size: 1.6em;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+#Dos a:hover{
+    background-color: #F5C600;
+
+}
+#tres{
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    text-align: center;
+    border: black solid 2px;
+    box-shadow: 30px 40px 50px -20px black;
+    border-radius: 40px;
+}
+#tres h1{
+    font-size: 3em;
+    color: #F5C600;
+}
+#tres p{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+#cuatro{
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    text-align: center;
+    border: black solid 2px;
+    box-shadow: 30px 40px 50px -20px black;
+    border-radius: 40px;
+}
+#cuatro h1{
+    font-size: 3em;
+    color: #F5C600;
+}
+#cuatro p{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+#cinco{
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    text-align: center;
+    border: black solid 2px;
+    box-shadow: 30px 40px 50px -20px black;
+    border-radius: 40px;
+}
+#cinco h1{
+    font-size: 3em;
+    color: #F5C600;
+}
+#cinco p{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+.ingles{
+    height: 50px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.cuadrado-gris{
+    width: 50%;
+    background-color:  rgb(163, 156, 156);
+    height: 20px;
+    border-radius: 200px;
+    overflow: hidden;
+    margin: auto;
+}
+.cuadrado-vino-tinto{
+    width: 100%;
+    background-color: #9267e4;
+    position: relative;
+    height: 100%;
+    transition: 0.6s;
+}
+.cntendor:hover .partes .ingles .cuadrado-gris .cuadrado-vino-tinto{
+    width: 50%;
+}
+.reflejo-uno{
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    right: 10%;
+    height: 5px;
+    background-color: #ffffff79;
+    border-radius:200px;
+}
+.reflejo-dos{
+    width: 70px;
+    position: absolute;
+    top: 10px;
+    right: 40%;
+    height: 5px;
+    background-color: #ffffff50;
+    border-radius:200px;
+}
+
+
+
+
+
+
+
+#Contactos{
+    padding: 30px;
+    margin-top: 80px;
+    /* background-image: url(../Img/slider.jpeg); */
+}
+#Contactos .partecuatro{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    color: black;
+}
+#Contactos .partecuatro h1{
+    font-size: 4em;
+    color: #9561A5;
+}
+#Contactos .partecuatro p{
+    font-size: 1.1em;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+#Contactos .partecuatro form .seccion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+}
+#Contactos .partecuatro form .datos{
+    width: 45%;
+    padding: 20px;
+}
+#Contactos .partecuatro form .datos input{
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 30px;
+    opacity: 0.7;
+    color: #9561A5;
+}
+#Contactos .partecuatro form .mensaje{
+    width: 40%;
+    padding: 20px;
+}
+
+#Contactos .partecuatro form .mensaje textarea{
+    width: 90%;
+    border-radius: 30px;
+    padding: 19px;
+    font-size: 1.3em;
+    opacity: 0.7;
+    color: #9561A5;
+}
+#Contactos .partecuatro form .mensaje .btn{
+    background-color: rgba(211, 211, 211, 0.39);
+    padding: 15px;
+    border-radius: 20px;
+    font-family: Titulos-Secundarios;
+    box-shadow: 20px 20px 40px -20px black;
+    font-size: 1.3em;
+}
+#Contactos .partecuatro form .mensaje .btn:hover{
+    background-color: #F5C600;
+    scale: 1.2;
+    color: black;
+    border: 0cm;
+    padding: 15px;
+}
+
+
+
+
+
+
+#footer{
+    background-color: rgb(171, 106, 231);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: center;
+    color: white;
+    font-size: 1.3em;
+}
+#footer .izquierda img{
+    height: 40px;
+    margin: 5px;
+}
+#footer .izquierda .in{
+    scale: 1.3;
+}
+#footer .izquierda .in:hover{
+    scale: 1.6;
+}
+#footer .izquierda img:hover{
+    scale: 1.3;
+}
+
+
+
+
+.boton{
+    background-color: #44ea61;
+    width: 105px;
+    height: 105px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.boton img{
+    height: 70px;
+    
+}
+
+.arriba{
+    background-color: rgb(241, 241, 241);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+}
+
+.arriba img{
+    height: 50px;
+}
+
+
+@media screen and (max-width:700px) {
+    .navbar{
+        z-index: 9999;
+    }
+    
+    #Perfil{
+        width: 80%;
+        margin: auto;
+        padding: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 1200px;
+    }
+    #Perfil .parrafo{
+        width: 80%;
+        position: relative;
+        margin-top: 350px;
+    }
+    #Perfil .parrafo img{
+        height: 120px;
+    }
+    #Perfil .parrafo p{
+        font-size: 1em;
+    }
+    #Perfil .parrafo a{
+        align-items: center;
+        position: absolute;
+        left: 39%;
+    }
+    #Perfil .imagen{
+        width: 80%;
+        height: 439px;
+    }
+    #Perfil .imagen img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /*------------------------------- SLIDER 02 -------------------------------*/
+
+    .mascara{
+        width: 70%;
+        height: 300px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 30px 40px 50px -20px black;
+        border-radius: 40px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    .mascara .slider{
+        width: 600%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        animation: slider 10s infinite;
+    }
+    
+    .mascara .slider .marco{
+        height: 100%;
+        width: 20%;
+    }
+    
+    .mascara .slider .marco img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 40px;
+    }
+    
+    @keyframes slider {
+        0%{left: 0%;}
+        15%{left: 0%;}
+        25%{left: -100%;}
+        40%{left: -100%;}
+        50%{left: -200%;}
+        65%{left: -200%;}
+        75%{left: -300%;}
+        90%{left: -300%;}
+        100%{left: -400%;}
+    }
+    
+
+    /*--------------------------------- Donar ---------------------------------*/
+
+    #donar{
+        margin-top: 90px;
+    }
+    .partes{    
+        width: 80%;
+        margin: auto;
+    }
+
+    #Uno{
+        text-align: center;
+    }
+    #Uno .titulo{
+        font-size: 3.2em;
+        color: #F5C600;
+    }
+    #Uno p{
+        font-size: 1.2em;
+    }
+    #Dos{
+        width: 50%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: auto;
+        text-align: center;
+        border: black solid 2px;
+        box-shadow: 30px 40px 50px -20px black;
+        border-radius: 40px;
+    }
+    #Dos h1{
+        font-size: 3em;
+        color: #F5C600;
+    }
+    #Dos p{
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+    #Dos a{
+        background-color: #9267e4;
+        font-size: 1.2em;
+        color: white;
+        padding: 10px 50px;
+        border-radius: 40px;
+        text-decoration: none;
+    }
+    #Dos a:hover{
+        background-color: #F5C600;
+
+    }
+    #tres{
+        width: 50%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: auto;
+        text-align: center;
+        border: black solid 2px;
+        box-shadow: 30px 40px 50px -20px black;
+        border-radius: 40px;
+    }
+    #tres h1{
+        font-size: 3em;
+        color: #F5C600;
+    }
+    #tres p{
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    #cuatro{
+        width: 50%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: auto;
+        text-align: center;
+        border: black solid 2px;
+        box-shadow: 30px 40px 50px -20px black;
+        border-radius: 40px;
+    }
+    #cuatro h1{
+        font-size: 3em;
+        color: #F5C600;
+    }
+    #cuatro p{
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    #cinco{
+        width: 50%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: auto;
+        text-align: center;
+        border: black solid 2px;
+        box-shadow: 30px 40px 50px -20px black;
+        border-radius: 40px;
+    }
+    #cinco h1{
+        font-size: 3em;
+        color: #F5C600;
+    }
+    #cinco p{
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    /*------------------------------- FORMULARIO -------------------------------*/
+
+    #Contactos form .seccion{
+        width: 100%;
+    }
+    #Contactos form .seccion .datos{
+        width: 100%;
+    }
+    #Contactos form .seccion .mensaje{
+        width: 100%;
+    }
+
+    /*-------------------------------- BOTONES --------------------------------*/
+
+    .boton{
+        background-color: #44ea61;
+        width: 90px;
+        height: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 9999999999999;
+    }
+    .boton img{
+        height: 50px;
+        
+    }
+    
+    .arriba{
+        background-color: rgb(241, 241, 241);
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+    }
+    
+    .arriba img{
+        height: 30px;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:1023px){
+
+    #carouselExampleCaptions #Slider1{
+        position: relative;
+    }
+    #carouselExampleCaptions #Slider1 a{
+        font-size: 1.3em;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: #9561A5;
+        color: #F5C600;
+        font-family: Titulos-Secundarios;
+        text-decoration: none;
+        position: absolute;
+        bottom: 40px;
+        right: 0px;
+        box-shadow: 30px 40px 50px -20px black;  
+    }
+
+    /*--------------------------------- PERFIL ---------------------------------*/
+
+    #Perfil{
+        margin-top: 60px;
+        position: relative;
+        height: 700px;
+        flex-wrap: wrap;
+    }
+    #Perfil .parrafo{
+        position: absolute;
+        top: 17%;
+        width: 40%;
+        left: 10%;
+        background-color: rgb(173, 109, 233);
+        z-index: 90;
+        position: relative;
+        border-radius: 30px;
+        box-shadow: 30px 40px 50px -20px black;
+    }
+    #Perfil .parrafo img{
+        height: 90px;
+        margin-left: 28%;
+        margin-top: 40px;
+    }
+    #Perfil .parrafo p{
+        padding-top: 5px;
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: center;
+        color: white;
+        font-size: 0.9em;
+    }
+    #Perfil .parrafo a{
+        font-size: 1.3em;
+        padding: 10px;
+        text-decoration: none;
+        color: yellow;
+        left: 35%;
+        position: absolute;
+        bottom: 10px;
+        border-radius: 10px;
+        border: 2px solid black;
+        font-family: Titulos-Secundarios;
+        margin-top: 60px;
+    }
+    #Perfil .parrafo a:hover{
+        background-color: white;
+        color: purple;
+        scale: 1.1;
+    }
+    #Perfil .imagen{
+        position: absolute;
+        height: 400px;
+        top: 25%;
+        right: 10%;
+        background-size: cover;
+        border-radius: 30px;
+        box-shadow: 0px 40px 50px -20px black;
+    }
+    #Perfil .imagen img{
+        height: 100%;
+        border-radius: 30px;
+    }
+
+    /*------------------------------- SLIDER 02 -------------------------------*/
+
+    .mascara{
+        width: 80%;
+        height: 300px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 30px 40px 50px -20px black;
+        border-radius: 40px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    .mascara .slider{
+        width: 600%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        animation: slider 10s infinite;
+    }
+    
+    .mascara .slider .marco{
+        height: 100%;
+        width: 20%;
+    }
+    
+    .mascara .slider .marco img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 40px;
+    }
+    
+    @keyframes slider {
+        0%{left: 0%;}
+        15%{left: 0%;}
+        25%{left: -100%;}
+        40%{left: -100%;}
+        50%{left: -200%;}
+        65%{left: -200%;}
+        75%{left: -300%;}
+        90%{left: -300%;}
+        100%{left: -400%;}
+    }
+
+    /*--------------------------------- Donar ---------------------------------*/
+
+    #donar{
+        margin-top: 90px;
+    }
+    .partes{    
+        width: 80%;
+        margin: auto;
+    }
+
+    #Uno{
+        text-align: center;
+    }
+    #Uno .titulo{
+        font-size: 3.6em;
+        color: #F5C600;
+    }
+    #Uno p{
+        font-size: 1.2em;
+    }
+    #Dos{
+        width: 50%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: auto;
+        text-align: center;
+        border: black solid 2px;
+        box-shadow: 30px 40px 50px -20px black;
+        border-radius: 40px;
+    }
+    #Dos h1{
+        font-size: 3em;
+        color: #F5C600;
+    }
+    #Dos p{
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+    #Dos a{
+        background-color: #9267e4;
+        font-size: 1.2em;
+        color: white;
+        padding: 10px 50px;
+        border-radius: 40px;
+        text-decoration: none;
+    }
+    #Dos a:hover{
+        background-color: #F5C600;
+
+    }
+    #tres{
+        width: 50%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: auto;
+        text-align: center;
+        border: black solid 2px;
+        box-shadow: 30px 40px 50px -20px black;
+        border-radius: 40px;
+    }
+    #tres h1{
+        font-size: 3em;
+        color: #F5C600;
+    }
+    #tres p{
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    #cuatro{
+        width: 50%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: auto;
+        text-align: center;
+        border: black solid 2px;
+        box-shadow: 30px 40px 50px -20px black;
+        border-radius: 40px;
+    }
+    #cuatro h1{
+        font-size: 3em;
+        color: #F5C600;
+    }
+    #cuatro p{
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    #cinco{
+        width: 50%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: auto;
+        text-align: center;
+        border: black solid 2px;
+        box-shadow: 30px 40px 50px -20px black;
+        border-radius: 40px;
+    }
+    #cinco h1{
+        font-size: 3em;
+        color: #F5C600;
+    }
+    #cinco p{
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    /*------------------------------- FORMULARIO -------------------------------*/
+
+    #Contactos form .seccion{
+        width: 100%;
+    }
+    #Contactos form .seccion .datos{
+        width: 100%;
+    }
+    #Contactos form .seccion .mensaje{
+        width: 100%;
+    }
+
+    /*--------------------------------- FOOTER --------------------------------*/
+
+    #footer{
+        background-color: rgb(171, 106, 231);
+        height: 300px;
+        align-content: center;
+        color: white;
+        font-size: 1.1em;
+        margin: auto;
+    }
+    #footer .derecha{
+        width: 55%;
+        text-align: center;
+    }
+    #footer .izquierda{
+        width: 55%;
+        text-align: center;
+    }
+    #footer .izquierda img{
+        height: 30px;
+        margin: 5px;
+    }
+    #footer .izquierda img:hover{   
+        scale: 1.3;
+    }
+
+    /*-------------------------------- BOTONES --------------------------------*/
+
+    .boton{
+        background-color: #44ea61;
+        width: 90px;
+        height: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 9999999999999;
+    }
+    .boton img{
+        height: 50px;
+        
+    }
+    
+    .arriba{
+        background-color: rgb(241, 241, 241);
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+    }
+    
+    .arriba img{
+        height: 30px;
+    }
+
+}

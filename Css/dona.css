@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* outline: 2px solid red; */
+}
+
+
+.cntendor{
+    margin-top: 50px;
+}
+.partes{
+    width: 80%;
+    margin: auto;
+}
+
+#Uno{
+    text-align: center;
+}
+#Uno .titulo{
+    font-size: 4em;
+    color: #F5C600;
+}
+#Uno p{
+    font-size: 1.4em;
+}
+
+
+.ingles{
+    height: 50px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.cuadrado-gris{
+    width: 50%;
+    background-color: white;
+    height: 20px;
+    border-radius: 200px;
+    overflow: hidden;
+    margin: auto;
+}
+.cuadrado-vino-tinto{
+    width: 100%;
+    background-color: #9267e4;
+    position: relative;
+    height: 100%;
+    transition: 0.6s;
+}
+.cntendor:hover .partes .ingles .cuadrado-gris .cuadrado-vino-tinto{
+    width: 50%;
+}
+.reflejo-uno{
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    right: 10%;
+    height: 5px;
+    background-color: #ffffff79;
+    border-radius:200px;
+}
+.reflejo-dos{
+    width: 70px;
+    position: absolute;
+    top: 10px;
+    right: 40%;
+    height: 5px;
+    background-color: #ffffff50;
+    border-radius:200px;
+}
+
+
+
+
+
+
+#footer{
+    background-color: rgb(171, 106, 231);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: center;
+    color: white;
+    font-size: 1.3em;
+    margin-top: 90px;
+}
+#footer .izquierda img{
+    height: 40px;
+    margin: 5px;
+}
+#footer .izquierda .in{
+    scale: 1.3;
+}
+#footer .izquierda .in:hover{
+    scale: 1.6;
+}
+#footer .izquierda img:hover{
+    scale: 1.3;
+}
+
+
+
+
+.boton{
+    background-color: #44ea61;
+    width: 105px;
+    height: 105px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.boton img{
+    height: 70px;
+    
+}.boton{
+    background-color: #44ea61;
+    width: 105px;
+    height: 105px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.boton img{
+    height: 60px;
+    
+}
